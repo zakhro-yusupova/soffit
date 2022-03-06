@@ -1,0 +1,28 @@
+html {
+	height: 100%;
+	box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+	scroll-behavior: smooth;
+}
+
+
+body {
+  font-family: "Manrope";
+  font-style: normal;
+	overflow-x: hidden;
+  font-weight: 500;
+	margin: 0;
+	padding: 0;
+position: relative;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	vertical-align: middle;
+}

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/main.css">
+  <title>Soffit</title>
+</head>
+<body>
+
+  <!-- site header -->
+
+  <header class="site-header">
+    <div class="container">
+      <div class="site-header__inner">
+        <a class="site-header__logo-link" href="./index.html">
+          <img class="site-header__logo-img" src="./images/logo.svg" alt="soffit brand logo">
+        </a>
+
+        <nav class="site-header__menu">
+          <ul class="site-header__list">
+            <li class="site-header__item">
+              <a href="#" class="site-header__item-link active-link">Services</a>
+            </li>
+            <li class="site-header__item">
+              <a href="#" class="site-header__item-link">Portfolio</a>
+            </li>
+            <li class="site-header__item">
+              <a href="#" class="site-header__item-link">About us</a>
+            </li>
+          </ul>
+
+          <ul class="site-header__lang-list">
+            <li class="site-header__lang-item">
+              <a href="#" class="site-header__lang-link">Uz</a>
+            </li>
+            <li class="site-header__lang-item">
+              <a href="#" class="site-header__lang-link">Ru</a>
+            </li>
+            <li class="site-header__lang-item">
+              <a href="#" class="site-header__lang-link active-link">En</a>
+            </li>
+          </ul>
+        </nav>
+
+        <button class="site-header__burger-btn">
+        <img src="./images/burger-btn.png" alt="burger btn icon" class="site-header__burger-img">
+        </button>
+      </div>
+
+    </div>
+  </header>
+
+  <main>
+
+    <!-- hero section -->
+    <section class="hero">
+      <div class="container">
+        <div class="hero__inner">
+          <h1 class="hero__title visually-hidden"></h1>
+          <form action="https://echo.htmlacademy.ru/courses" class="hero__form">
+
+            <div class="hero__info">
+              <div class="hero-input-info">
+                <label for="name" class="hero__label">Ism Familiya</label>
+                <input type="text" class="hero__input name-input" id="name" placeholder="Ismingini kiriting" name="name">
+              </div>
+
+              <div class="hero-input-info">
+                <label for="company" class="hero__label">Companiyani kiriting</label>
+                <input type="text" class="hero__input company-input" id="company" placeholder="Companiya" name="Company name">
+              </div>
+
+            </div>
+
+            <div class="hero__info">
+              <div class="hero-input-info">
+                <label for="username" class="hero__label">Telegram username</label>
+                <input type="text" class="hero__input input-connect" id="username" placeholder="Username" name="Telegram username">
+              </div>
+
+              <div class="hero-input-info">
+                <label for="phone" class="hero__label">Phone number</label>
+                <input type="tel" min="9" class="hero__input input-connect" id="phone" placeholder="+998 99" name="Phone number">
+              </div>
+            </div>
+
+            <div class="hero__info">
+              <div class="hero-input-info">
+                <label for="site" class="hero__label">Sayni turini tanlang</label>
+                <select class="hero__select company-input" name="sites type" id="site">
+                  <option value="Corparative sayt" selected>Corparative sayt</option>
+                  <option value="Oddiy sayt">Oddiy sayt</option>
+                </select>
+              </div>
+
+              <div class="hero-input-info">
+                <label for="connect" class="hero__label">Sizga bo’glanish usulini tanlang</label>
+                <select class="hero__select name-input" name="connection type" id="connect">
+                  <option value="Telegram" selected>Telegram</option>
+                  <option value="Phone Number">Phone Number</option>
+                </select>
+              </div>
+
+            </div>
+
+            <div class="hero-input-info textarea-info">
+              <label class="hero__label" for="message">Message</label>
+              <textarea class="hero__textarea" name="Message" id="Message" cols="30" rows="10" ></textarea>
+            </div>
+
+            <button class="hero__button">Jo'natish</button>
+          </form>
+
+          <div class="hero__content">
+            <h2 class="hero__subtitle">Ux & Ui design</h2>
+            <p class="hero__text">In the current tech scenario, one can’t predict what device their user will use to interact with a product. This is why it’s always a good idea to build something that supports all devices. However it is nearly impossible to design for every screen size with so many .</p>
+            <p class="hero__mobile-text">In the current tech scenario, one can’t predict what device their user will use to interact with a product.
+               </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
